@@ -125,13 +125,14 @@ body{
 }
 .topnav a{
     float: left;
-    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16pt;
     border-top: 5px solid #0a3553;
+    background-color: #0a3553;
     border-bottom: 5px solid #0a3553;
+    color: #ffffff;
 }
 .topnav a:hover{
     background-color: #5ca5dc;
@@ -140,11 +141,14 @@ body{
     border-bottom: 5px solid #5ca5dc;
 }
 .topnav a.active{
-    background-color: #5ca5dc;
+    border-top: 5px solid #0a3553;
+    background-color: #0a3553;
+    border-bottom: 5px solid #5ca5dc;
     color: #ffffff;
-    border-top: 5px solid #5ca5dc;
-    border-bottom: 5px solid #0a3553;
 }
 .topnav a:hover.active{
+    border-top: 5px solid #5ca5dc;
+    background-color: #5ca5dc;
+    border-bottom: 5px solid #0a3553;
     color: #0a3553;
 }
