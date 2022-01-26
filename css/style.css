@@ -130,20 +130,21 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16pt;
+    border-top: 5px solid #0a3553;
     border-bottom: 5px solid #0a3553;
 }
 .topnav a:hover{
-    background-color: #9bd4ff;
-    color: #0a3553;
-    border-bottom: 5px solid #0a3553;
-}
-.topnav a:hover.active{
     background-color: #5ca5dc;
     color: #0a3553;
-    border-bottom: 5px solid #0a3553;
+    border-top: 5px solid #5ca5dc;
+    border-bottom: 5px solid #5ca5dc;
 }
 .topnav a.active{
     background-color: #5ca5dc;
     color: #ffffff;
-    border-bottom: 5px solid #5ca5dc;
+    border-top: 5px solid #5ca5dc;
+    border-bottom: 5px solid #0a3553;
+}
+.topnav a:hover.active{
+    color: #0a3553;
 }
