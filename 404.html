@@ -6,6 +6,19 @@
     <meta name="theme-color" content="#5ca5dc">
 </head>
 <body>
+    <script>
+        var num = 10;
+        var x = setInterval(function() {
+            if (num > 0){
+                num = num-1;
+            }
+            if (num == 1){
+                document.getElementById("countdown").innerHTML = num + " second";
+            } else {
+                document.getElementById("countdown").innerHTML = num + " seconds";
+            }
+        }, 1000);
+    </script>
     <div class="topnav">
         <a href="https://www.izzdevs.me/">HOME</a>
         <a href="https://www.izzdevs.me/scripts">SCRIPTS</a>
@@ -16,8 +29,7 @@
         <h1 class="center">404 Error</h1>
         <h2 class="center">Page not found</h2>
         <p class="center">
-            The page you are looking for was not found. Please double check the URL and try again.
-            Click <a href="https://www.izzdevs.me/" class="link">here</a> if you are not redirected to the home page within 10 seconds.
+            The page you are looking for was not found. Please double check the URL and try again. You will be redirected to the home page in <a id="countdown">10 seconds</a>. Click <a href="https://www.izzdevs.me/" class="link">here</a> if you are not redirected.
         </p>
         <br>
         <h2 class="center">Pages</h2>
