@@ -25,6 +25,7 @@ body{
 }
 .center{
     text-align: center;
+    align-content: center;
 }
 .body h1{
     font-size: 36pt;
@@ -42,15 +43,20 @@ body{
     font-size: 16pt;
     font-family: Arial, Helvetica, sans-serif;
 }
-.script{
+.box{
     min-height: 20px;
     padding: 20px;
     background-color: #ffffff;
     border: 2px solid #0a3553;
     border-radius: 10px;
 }
-.script p{
+.box p{
     font-size: 12pt;
+}
+.box iframe{
+    width: 350px;
+    height: 197px;
+    border: 5px solid #5ca5dc;
 }
 
 
@@ -63,18 +69,18 @@ body{
 .body a:hover.link{
     color: #ffffff;
 }
-.script a.link{
+.box a.link{
     color: #0a3553;
     text-decoration: underline;
 }
-.script a:hover.link{
+.box a:hover.link{
     color: #5ca5dc;
 }
-.script a.title{
+.box a.title{
     color: #0a3553;
     text-decoration: none;
 }
-.script a:hover.title{
+.box a:hover.title{
     color: #5ca5dc;
 }
 .body a.button{
@@ -122,20 +128,20 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16pt;
-    border: 2px solid #0a3553;
+    border-bottom: 5px solid #0a3553;
 }
 .topnav a:hover{
     background-color: #9bd4ff;
     color: #0a3553;
-    border: 2px solid #0a3553;
+    border-bottom: 5px solid #0a3553;
 }
 .topnav a:hover.active{
     background-color: #5ca5dc;
     color: #0a3553;
-    border: 2px solid #0a3553;
+    border-bottom: 5px solid #0a3553;
 }
 .topnav a.active{
     background-color: #5ca5dc;
     color: #ffffff;
-    border: 2px solid #5ca5dc;
+    border-bottom: 5px solid #5ca5dc;
 }
