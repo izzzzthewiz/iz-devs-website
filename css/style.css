@@ -20,42 +20,87 @@ body{
 }
 .body{
     padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.center{
+    text-align: center;
 }
 .body h1{
     font-size: 36pt;
     font-family: 'Aldo', Arial, Helvetica, sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.body h1.center{
-    text-align: center;
 }
 .body h2{
     font-size: 20pt;
     font-family: 'Aldo', Arial, Helvetica, sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.body h2.center{
-    text-align: center;
 }
 .body h3{
     font-size: 20pt;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.body h3.center{
-    text-align: center;
 }
 .body p{
     font-size: 16pt;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
 }
-.body p.center{
-    text-align: center;
+.script{
+    min-height: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #0a3553;
+    border-radius: 10px;
+}
+.script p{
+    font-size: 12pt;
+}
+
+
+
+/* Buttons */
+.body a.link{
+    color: #0a3553;
+    text-decoration: underline;
+}
+.body a:hover.link{
+    color: #ffffff;
+}
+.script a.link{
+    color: #0a3553;
+    text-decoration: underline;
+}
+.script a:hover.link{
+    color: #5ca5dc;
+}
+.script a.title{
+    color: #0a3553;
+    text-decoration: none;
+}
+.script a:hover.title{
+    color: #5ca5dc;
+}
+.body a.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Aldo', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16pt;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0a3553;
+    border: 2px solid #0a3553;
+}
+.body a:hover.button{
+    color: #0a3553;
+    background-color: #5ca5dc;
+}
+.body ul{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.body li{
+    padding-bottom: 30px;
 }
 
 
