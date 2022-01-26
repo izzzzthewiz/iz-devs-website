@@ -10,6 +10,20 @@
     <meta name="keywords" content="iZz, Devs, Development, Develop, Skript, iZ, Scripts, Minehut, Free, Discord">
 </head>
 <body>
+    <script>
+        var num = 1
+        var x = setInterval(function() {
+            num = num+1
+            if (num == 1){
+                document.getElementById("dots").innerHTML = ".";
+            } else if (num == 2){
+                document.getElementById("dots").innerHTML = "..";
+            } else if (num == 3){
+                document.getElementById("dots").innerHTML = "...";
+                num = 0
+            }
+        }, 500);
+    </script>
     <div class="topnav">
         <a href="https://www.izzdevs.me/">HOME</a>
         <a href="https://www.izzdevs.me/scripts">SCRIPTS</a>
@@ -18,6 +32,8 @@
     </div>
     <div class="body">
         <h1 class="center">Discord</h1>
-        <p class="center"><a href="https://discord.gg/9ZkjCmNrG5" class="link">Click here if you are not redirected within 10 seconds</a></p>
+        <p class="center">
+            Redirecting to <a href="https://discord.gg/9ZkjCmNrG5" class="link">https://discord.gg/9ZkjCmNrG5</a><a id="dots">.</a>
+        </p>
     </div>
 </body>
