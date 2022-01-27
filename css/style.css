@@ -219,12 +219,14 @@ body{
     border-bottom: none;
 }
 .dropdown-content a:hover{
-    border-top: none;
     color: #9bd4ff;
+    border-top: none;
     border-bottom: none;
 }
 .dropdown-content a.active{
     border-left: 5px solid #5ca5dc;
+    border-top: none;
+    border-bottom: none;
 }
 .dropdown:hover .dropdown-content{
     display: block;
