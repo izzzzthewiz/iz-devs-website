@@ -60,6 +60,9 @@ body{
     border-radius: 5px;
     background-color: #9bd4ff;
 }
+.body details summary:hover{
+    cursor: pointer;
+}
 .box{
     min-height: 20px;
     padding: 20px;
