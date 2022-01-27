@@ -56,7 +56,6 @@ body{
 .body details img{
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 .body details a:hover.link{
     color: #5ca5dc;
