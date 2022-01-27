@@ -2,6 +2,7 @@
     <title>404 Error - iZz Development</title>
     <link rel="icon" href="https://www.izzdevs.me/img/iz-overlay-dark.png" type="img/png">
     <link rel="stylesheet" href="https://www.izzdevs.me/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta http-equiv="refresh" content="10;https://www.izzdevs.me/">
     <meta property="og:title" content="404 Error - iZz Development">
     <meta property="og:description" content="404 Error - Page not found">
@@ -24,11 +25,18 @@
             }
         }, 1000);
     </script>
-    <div class="topnav">
-        <a href="https://www.izzdevs.me/">HOME</a>
-        <a href="https://www.izzdevs.me/skript">SKRIPT</a>
-        <a href="https://www.izzdevs.me/discord" target="_blank">DISCORD</a>
-        <a href="https://www.izzdevs.me/youtube" target="_blank">YOUTUBE</a>
+    <div class="navbar">
+        <a href="https://www.izzdevs.me/home">Home</a>
+        <div class="dropdown">
+            <button onclick="location.href = 'https:\/\/www.izzdevs.me/skript'" class="dropbtn">Skript<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://www.izzdevs.me/skript/releases">Releases</a>
+                <a href="https://www.izzdevs.me/skript/tutorials">Tutorials</a>
+            </div>
+        </div>
+        <a href="https://www.izzdevs.me/discord">Discord</a>
+        <a href="https://www.izzdevs.me/youtube">YouTube</a>
     </div>
     <div class="body">
         <h1 class="center">404 Error</h1>
