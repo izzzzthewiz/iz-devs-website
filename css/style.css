@@ -142,6 +142,13 @@ body{
 .body li{
     padding-bottom: 30px;
 }
+.body ul li a.button i{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.body ul li a:hover.button i{
+    color: #0a3553;
+}
 
 
 
