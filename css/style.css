@@ -60,6 +60,11 @@ body{
 .body details a:hover.link{
     color: #5ca5dc;
 }
+.body details iframe{
+    width: 100%;
+    height: 93%;
+    margin-top: 10px;
+}
 .body details summary{
     font-family: 'Aldo', Arial, Helvetica, sans-serif;
     font-size: 20pt;
