@@ -32,7 +32,7 @@ body{
     font-family: 'Aldo', Arial, Helvetica, sans-serif;
 }
 .body h2{
-    font-size: 20pt;
+    font-size: 24pt;
     font-family: 'Aldo', Arial, Helvetica, sans-serif;
 }
 .body h3{
@@ -52,6 +52,10 @@ body{
     border-radius: 10px;
     background-color: #ffffff;
     margin-bottom: 20px;
+}
+.body details img{
+    width: 100%;
+    margin: 10px;
 }
 .body details summary{
     font-family: 'Aldo', Arial, Helvetica, sans-serif;
