@@ -57,6 +57,9 @@ body{
     width: 100%;
     margin: 10px;
 }
+.body details a:hover.link{
+    color: #5ca5dc;
+}
 .body details summary{
     font-family: 'Aldo', Arial, Helvetica, sans-serif;
     font-size: 20pt;
