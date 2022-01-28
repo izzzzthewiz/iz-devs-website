@@ -1,0 +1,34 @@
+<head>
+    <title>iZz's Discord Redirect</title>
+    <link rel="icon" href="./img/iz-overlay-main.png">
+    <link rel="stylesheet" href="./test.css">
+    <script>
+        var name = "iZz\'s Skript Lounge";
+        var invite = "9ZkjCmNrG5";
+        var
+        var instant = setInterval(function() {
+            document.getElementById("name").innerHTML = name;
+            document.getElementById("name-inner").innerHTML = name;
+        }, 1);
+        var num = 10;
+        var countdown = setInterval(function() {
+            if (num > 0){
+                num = num-1;
+            }
+            if (num == 1){
+                document.getElementById("countdown").innerHTML = num + " second";
+            } else {
+                document.getElementById("countdown").innerHTML = num + " seconds";
+            }
+            if (num == 0){
+                location.href = 'https://discord.gg/' + invite;
+            }
+        }, 1000);
+    </script>
+</head>
+<body>
+    <div class="body">
+        <h1 class="center" id="name">Loading...</h1>
+        <p class="center">You will be redirected to <a id="name-inner">(loading)</a> in <a id="countdown">10 seconds</a>.</p>
+    </div>
+</body>
