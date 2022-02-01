@@ -86,8 +86,8 @@ function stop(){
         started = false;
         score = 0;
         last1k = 0;
-        document.getElementById("score").innerHTML = 0;
         die = true;
+        document.getElementById("score").innerHTML = 0;
         document.getElementById("button").innerHTML = "Start (enter)";
     }, 1);
 }
