@@ -54,6 +54,10 @@ var checkDead = setInterval(function(){
         } else {
             score = score + 1;
             document.getElementById("score").innerHTML = numComma(score);
+            document.getElementById("block").style.display = "none";
+            setTimeout(function(){
+                document.getElementById("block").style.display = "block";
+            }, 100);
         }
         if (die == true){
             block.style.backgroundImage = "url(https://i.imgur.com/3o2rHAK.png)";
