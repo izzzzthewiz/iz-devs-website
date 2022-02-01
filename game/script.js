@@ -66,6 +66,7 @@ var checkDead = setInterval(function(){
 function stop(){
     var newhs = false;
     document.getElementById("score").innerHTML = numComma(score);
+    clearInterval(interval);
     if (score > highscore){
         newhs = true;
         highscore = score;
@@ -95,7 +96,7 @@ function start(){
     block.style.display = "block";
     block.style.animation = "block 1200ms infinite linear";
     document.getElementById("button").innerHTML = "Jump (space)";
-    setInterval(function(){
+    var interval = setInterval(function(){
         if (started == true){
             var int = randomInt(1, 10);
             if (int == 1){
@@ -114,4 +115,4 @@ function numComma(numb) {
 }
 function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
-  }
+}
