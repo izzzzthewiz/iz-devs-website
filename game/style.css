@@ -1,0 +1,57 @@
+@font-face {
+    font-family: '8bit';
+    src: url(./Minecraft.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: '8bit', Arial, Helvetica, sans-serif;
+}
+.all {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 100px;
+  }
+.top{
+    text-align: center;
+    width: 500px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+#game{
+    width: 500px;
+    height: 200px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#character{
+    width: 20px;
+    height: 50px;
+    background-image: url(https://i.imgur.com/N0i2j2R.png);
+    position: relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 500ms;
+}
+@keyframes jump{
+    0%{top: 150px;background-image: url(https://i.imgur.com/N0i2j2R.png);}
+    30%{top: 100px;background-image: url(https://i.imgur.com/vXbRJ72.png);}
+    70%{top: 100px;background-image: url(https://i.imgur.com/vXbRJ72.png);}
+    100%{top: 150px;background-image: url(https://i.imgur.com/N0i2j2R.png);}
+}
+#block{
+    width: 20px;
+    height: 20px;
+    background-image: url(https://i.imgur.com/3o2rHAK.png);
+    position: relative;
+    top: 130px;
+    left: 480px;
+    display: none;
+}
+@keyframes block{
+    0%{left: 480px;}
+    100%{left: 0px;}
+}
