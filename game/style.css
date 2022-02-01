@@ -7,6 +7,12 @@
     margin: 0;
     font-family: '8bit', Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: #9bd4ff;
+}
+h1{
+    font-size: 100px;
+}
 .all {
     margin: 0 auto;
     width: 500px;
@@ -18,6 +24,7 @@
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-top: 1px solid black;
+    background-color: #fff;
 }
 #game{
     width: 500px;
@@ -25,6 +32,7 @@
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
+    background-color: #fff;
 }
 #character{
     width: 20px;
