@@ -22,8 +22,9 @@ h1{
 }
 .all {
     margin: 0 auto;
-    width: 500px;
+    width: 504px;
     padding-top: 100px;
+    overflow: hidden;
 }
 .top{
     padding-top: 10px;
@@ -87,5 +88,5 @@ h1{
 }
 @keyframes block{
     0%{left: 480px;}
-    100%{left: 0px;}
+    100%{left: -40px;}
 }
