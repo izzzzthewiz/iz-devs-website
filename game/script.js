@@ -66,7 +66,6 @@ var checkDead = setInterval(function(){
 function stop(){
     var newhs = false;
     document.getElementById("score").innerHTML = numComma(score);
-    clearInterval(interval);
     if (score > highscore){
         newhs = true;
         highscore = score;
@@ -81,7 +80,6 @@ function stop(){
         block.style.animation = "none";
         block.style.display = "none";
         started = false;
-        document.getElementById("message").innerHTML = "Press enter to start";
         score = 0;
         document.getElementById("score").innerHTML = 0;
         die = true;
@@ -91,7 +89,6 @@ function stop(){
 
 function start(){
     started = true;
-    document.getElementById("message").innerHTML = "Press space to jump";
     document.getElementById("highscore").innerHTML = "High score: " + numComma(highscore);
     block.style.display = "block";
     block.style.animation = "block 1200ms infinite linear";
@@ -104,7 +101,7 @@ function start(){
             } else{
                 die = true;
             }
-        } else return;
+        } else clearInterval(interval);;
     }, 1200);
 }
 
