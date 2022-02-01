@@ -84,7 +84,7 @@ function stop(){
         score = 0;
         document.getElementById("score").innerHTML = 0;
         die = true;
-        document.getElementById("button").innerHTML = "Start";
+        document.getElementById("button").innerHTML = "Start (enter)";
     }, 1);
 }
 
@@ -94,7 +94,7 @@ function start(){
     document.getElementById("highscore").innerHTML = "High score: " + numComma(highscore);
     block.style.display = "block";
     block.style.animation = "block 1200ms infinite linear";
-    document.getElementById("button").innerHTML = "Jump";
+    document.getElementById("button").innerHTML = "Jump (space)";
     setInterval(function(){
         if (started == true){
             var int = randomInt(1, 10);
