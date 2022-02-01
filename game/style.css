@@ -2,6 +2,10 @@
     font-family: '8bit';
     src: url(./Minecraft.ttf);
 }
+@font-face {
+    font-family: 'Aldo';
+    src: url(../fonts/Main.ttf);
+}
 *{
     padding: 0;
     margin: 0;
@@ -11,7 +15,10 @@ body{
     background-color: #9bd4ff;
 }
 h1{
-    font-size: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Aldo', Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
 }
 .all {
     margin: 0 auto;
