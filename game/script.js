@@ -6,9 +6,17 @@ var highscore = 0;
 var die = true;
 var last1k = 0;
 
+function button(){
+    if (started == true){
+        jump();
+    } else {
+        start();
+    }
+}
+
 document.addEventListener("keydown", evt => {
     if (evt.keyCode === 32){
-        jump()
+        jump();
     }
     if (evt.keyCode === 13){
         if (started == false){
@@ -76,6 +84,7 @@ function stop(){
         score = 0;
         document.getElementById("score").innerHTML = 0;
         die = true;
+        document.getElementById("button").innerHTML = "Start";
     }, 1);
 }
 
@@ -85,6 +94,7 @@ function start(){
     document.getElementById("highscore").innerHTML = "High score: " + numComma(highscore);
     block.style.display = "block";
     block.style.animation = "block 1200ms infinite linear";
+    document.getElementById("button").innerHTML = "Jump";
     setInterval(function(){
         if (started == true){
             var int = randomInt(1, 10);
